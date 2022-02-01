@@ -1,2 +1,2 @@
-# Mini hobby apps
-This repository is constantly expanding.
+# Mini hobby projects
+### This repository is constantly expanding.

@@ -44,7 +44,7 @@ int main() {
     printf("Nyomjon entert a bezáráshoz...");scanf("%d",&bezaro);
     //A páros oldalak fájlba írása
     FILE *fp1;
-    fp1 = fopen("paros_oldalak.txt", "w+");
+    fp1 = fopen("even_pages.txt", "w+");
     if (fp1 != NULL){
       aktualis = elso; //Ez elsõ elem címe
       while (aktualis) { //A lista végén NULL
@@ -54,7 +54,7 @@ int main() {
     fclose(fp1);
     //Ugyanez, csak a páratlanokkal
     FILE *fp2;
-    fp2 = fopen("paratlan_oldalak.txt", "w+");
+    fp2 = fopen("odd_pages.txt", "w+");
     if (fp2 != NULL){
       aktualis2 = elso2; //Ez elsõ elem címe
       while (aktualis2) { //A lista végén NULL

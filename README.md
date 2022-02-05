@@ -1,2 +1,2 @@
 # Mini hobby codes
-### This repository is constantly expanding.
+### This repository constantly updating.
